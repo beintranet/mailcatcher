@@ -2,14 +2,14 @@
     "name": "alexandresalome/mailcatcher",
     "license": "MIT",
     "type": "library",
-    "description": "A library to access MailCatcher",
+    "description": "A fork of alexandresalome/mailcatcher that support Symfony 4",
     "autoload": {
         "psr-0": { "Alex\\MailCatcher": "" }
     },
     "target-dir": "Alex/MailCatcher",
     "require": {
         "php":                     ">=5.3.3",
-        "symfony/dom-crawler":     "~2.3|~3.0"
+        "symfony/dom-crawler":     "~2.3|~3.0|~4.0"
     },
 
     "require-dev": {
